@@ -1,0 +1,13 @@
+1. AWSLambdaExecute	: AWS managed
+
+2. AWSLambdaBasicExecutionRole	: AWS managed	:: Provides write permissions to CloudWatch Logs.
+
+3. AWSLambdaVPCAccessExecutionRole	: AWS managed	:: Provides minimum permissions for a Lambda function to execute while accessing a resource within a VPC - create, describe, delete network interfaces and write permissions to CloudWatch Logs.
+
+4. AWSLambda_FullAccess : AWS managed :: Grants full access to AWS Lambda service, AWS Lambda console features, and other related AWS services.
+
+5. AWSLambdaBasicExecutionRole-41375cdd-9767-4374-a467-62341455c08b
+
+6. ECRTESTv1
+
+7. AmazonS3ReadOnlyAccess :AWS managed	:: Provides read only access to all buckets via the AWS Management Console.
